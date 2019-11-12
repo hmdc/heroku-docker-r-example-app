@@ -10,6 +10,8 @@ This application was built using R 3.6.1.
   - [Windows](https://docs.docker.com/docker-for-windows/install/)
 * Clone this repository
 ```git clone https://github.com/hmdc/heroku-docker-r-example-app.git```
+* cd into the cloned repository
+```cd heroku-docker-r-example-app```
 * Build the container
 ```docker build . -t heroku-docker-r-example-app```
 * Run the container
