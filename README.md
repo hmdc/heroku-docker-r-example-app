@@ -1,13 +1,15 @@
 # heroku-docker-r-example-app
 
 ## Running this app locally using RStudio
-Running this app with RStudio requires no additional changes. You can use RStudio to instal the libray dependencies for this app.
+Running this app with RStudio requires no additional changes. You can use RStudio to install the library dependencies for this app.
 This application was built using R 3.6.1.
 
 ## Running this app locally using Docker
 * Install Docker for your operating system
   - [Mac](https://docs.docker.com/docker-for-mac/install/)
   - [Windows](https://docs.docker.com/docker-for-windows/install/)
+* Clone this repository
+```git clone https://github.com/hmdc/heroku-docker-r-example-app.git```
 * Build the container
 ```docker build . -t heroku-docker-r-example-app```
 * Run the container
