@@ -19,9 +19,11 @@ This application was built using R 3.6.1.
 * View the app locally in your web browser at <http://localhost:8080>
 
 ## Deploying this application to Heroku
-1. ```heroku create --stack=container my-docker-r-example-app --team=g-harvard```
+1. Log into Heroku
+```heroku login```
+2. ```heroku create --stack=container my-docker-r-example-app --team=g-harvard```
    * Replace ```my-docker-r-example-app``` with whatever name. ```---team``` is not necessary for non-IQSS/HMDC users.
-2. ```heroku git:remote -a my-docker-r-example-app```
-3. ```git push origin heroku```
-4. Visit the app - the app's url will be different based on what you've named it, but follows this template: <https://APPNAME.herokuapp.com>. For a working example, see <https://docker-r-example-app.herokuapp.com/>
+3. ```heroku git:remote -a my-docker-r-example-app```
+4. ```git push heroku master```
+5. Visit the app - the app's url will be different based on what you've named it, but follows this template: <https://APPNAME.herokuapp.com>. For a working example, see <https://docker-r-example-app.herokuapp.com/>
 
